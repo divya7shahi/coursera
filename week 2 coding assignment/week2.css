@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin: 10px;
+  align:centre;
+  color: red;
+}
+
+div.design {
+  border: 1px solid black;
+  width: 90%;
+  height: auto;
+  margin: 6px;
+  font-family: Helvetica;
+  color: black;
+  position: relative;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.p1{
+ /* left: 0%;*/
+  background-color: #232A2A;
+}
+
+.p2{
+
+   /* left: 33%;*/
+    background-color: #A50111;
+
+
+}
+.p3{
+  /*left: 66%;*/
+  background-color: #A55126;
+
+}
+
+
+
+
+/*sub:box heading*/
+div.absolute{
+  position:absolute;
+    top:0px;
+    right:0px;
+    height: 12%;
+    width:20%;
+    color: yellow;
+    background-color:red;
+    border: 1px solid  black;
+   /* clear: both;*/
+   float:none;
+    align:centre;
+    font-size: 0.5em;
+
+   
+
+
+
+}
+
+
+ /* ********** desktop devices only **********/
+@media (min-width: 992px) {
+
+  div.design
+   {
+      border: 1px solid black;
+      width: 31%;
+      height: auto;
+      margin: 1%;
+      font-family: Helvetica;
+      color: black;
+      position: relative;
+      padding: 10px;
+      float:left;
+
+  }  
+}
+@media (min-width:  768px) and (max-width: 991px)
+{
+    div.design
+   {
+      border: 1px solid black;
+      width: 48%;
+      height: auto;
+      margin:1%;
+      font-family: Helvetica;
+      color: black;
+      position: relative;
+      padding: 5px;
+      float: left;
+
+  } 
+  /*.p2{
+
+   
+    background-color: #A50111;
+    width: 49%;
+
+
+}*/
+
+.p3{
+  
+  background-color: #A55126;
+  width:98%;
+  align:center;
+
+}/*
+.p1{
+   background-color: #232A2A;
+   width: 49%;
+
+}
+*/
+
+
+}
